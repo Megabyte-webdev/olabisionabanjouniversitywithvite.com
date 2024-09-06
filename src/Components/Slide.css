@@ -155,7 +155,7 @@
     text-transform: uppercase;
     color: var(--secondary-blue);
     font-weight: 500;
-    font-size: calc(1vmax + 7px);
+    font-size: calc(1vmin + 7px);
 }
 .slider ul li p {
     font-size: .9rem;

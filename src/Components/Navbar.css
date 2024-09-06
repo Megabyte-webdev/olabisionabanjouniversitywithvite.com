@@ -1,5 +1,5 @@
 .nav {
-    font-size: calc(1vmax + 9px);
+    font-size: calc(1vmin + 1rem);
     position: fixed;
     top: 0;
     left: 0;
@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: calc(1vmax + 9px);
+    font-size: calc(1vmin + 1rem);
 }
 .nav-main .logo{
     padding: 15px;
@@ -152,7 +152,7 @@ ul.menus li {
     z-index: -1000;
     height: 0px;
     overflow: hidden;
-    box-shadow: 1px 1px 10px grey;
+    box-shadow: 2px 2px 5px var(--medium-black);
     transform: translateY(-70%) scaleY(.3);
     transition: 0.2s, opacity 0.2s 0.05s;
 }
@@ -173,7 +173,7 @@ ul.menus li {
 
 .nav li .drop-list li{
     padding: 5px;
-    font-size: calc(1vmax + 7px);
+    font-size: calc(1vmin + .7rem);
     border: none;
     text-align: left;
     color: var(--primary-blue);

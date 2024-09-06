@@ -187,14 +187,14 @@ main {
 }
 .tour h2 {
     color: var(--primary-white);
-    font-size: calc(1vmax + 1rem);
+    font-size: calc(1vmin + 1.2rem);
     text-shadow:2px 2px 2px var(--black);
 }
 
 .tour span {
     color: var(--primary-yellow);
     font-weight: 550;
-    font-size: calc(1vmax + .8rem);
+    font-size: calc(1vmin + .8rem);
     text-shadow:2px 2px 2px var(--black);
 }
 
