@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Faculty of science",
+        "departments": 10,
+        "imgsrc": "../assets/img1.jpg",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "Faculty of Engineering",
+        "departments": 10,
+        "imgsrc": "../assets/img1.jpg",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "Faculty of law",
+        "departments": 10,
+        "imgsrc": "../assets/img1.jpg",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "Faculty of social sciences",
+        "departments": 10,
+        "imgsrc": "../assets/img1.jpg",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "Faculty of Environmental Studies",
+        "departments": 10,
+        "imgsrc": "../assets/img1.jpg",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "Faculty of Art",
+        "departments": 10,
+        "imgsrc": "../assets/img1.jpg",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "Faculty of Art",
+        "departments": 10,
+        "imgsrc": "../assets/img1.jpg",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    }
+]

@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+*.log
+*.tmp
+*.cache
+*.env
+*.DS_Store
+Thumbs.db
+*.idea/
+*.vscode/
+*.gitignore.swp

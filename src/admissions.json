@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Full-time Students",
+        "departments": 10,
+        "imgsrc": "../assets/hero-img.png",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "Part-Time Students",
+        "departments": 10,
+        "imgsrc": "../assets/hero-img.png",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "Direct Entry Students",
+        "departments": 10,
+        "imgsrc": "../assets/hero-img.png",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "Subsidiaries",
+        "departments": 10,
+        "imgsrc": "../assets/hero-img.png",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    }
+]

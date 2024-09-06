@@ -1,0 +1,210 @@
+.slider {
+    width: 95%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.slider .dots {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    min-height: 50px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 10;
+}
+.slider .dots .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    margin-top: 10px;
+    background-color: none;
+    border: 2px solid var(--primary-blue);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.news-section .slider .dot {
+    background-color: none;
+    border: 2px solid var(--primary-white);
+}
+.slider .dots .dot:hover,
+.slider .dots .dot.active {
+    background-color: var(--primary-blue);
+    color: inherit;
+}
+.news-section .slider .dots .dot:hover,
+.news-section .slider .dots .dot.active {
+    background-color: var(--primary-white);
+    color: inherit;
+}
+.slider .controls {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.slider:hover .controls{
+    opacity: 1;
+}
+.slider .controls span {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-white);
+    box-shadow: 0 0 2px #676767;
+    color: var(--primary-blue);
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.next-btn{
+    margin-left: auto;
+}
+.see-more{
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    background-color: var(--secondary-blue);
+    color: var(--primary-white);
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+    transform: scale(0);
+    z-index: -1000;
+    transition: 0.2s;
+}
+
+.slider .controls span.hidden{
+    transform: scale(0);
+}
+.slider .dots .dot.hidden{
+    transform: scale(0);
+}
+.see-more:hover{
+    background-color: var(--primary-blue);
+}
+.slider .dots .see-more.visible{
+    z-index: 1;
+    transform: scale(01);
+}
+.slider .controls span:hover {
+    background: var(--primary-blue);
+    color: var(--secondary-white);
+}
+.slider ul {
+    width: calc(33.3% * var(--slides));
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 0 10px;
+    margin: 0 auto;
+    transition: 0.4s;
+}
+.slider ul li {
+    list-style-type: none;
+    max-width: 350px;
+    width: 90%;
+    min-height: 100px;
+    min-height: max-content;
+    margin: 20px;
+    padding: 15px;
+    background-color: var(--primary-white);
+}
+.slider ul li:first-child {
+    margin-left: 0 !important;
+}
+.slider ul li:last-child {
+    margin-right: 0 !important;
+}
+.slider ul li img {
+    width: 100%;
+    max-width: 350px;
+    height: 150px;
+    object-fit: cover;
+    background-color: grey;
+}
+.slider ul li h3 {
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+.slider ul li span {
+    display: block;
+    text-transform: uppercase;
+    color: var(--secondary-blue);
+    font-weight: 500;
+    font-size: calc(1vmax + 7px);
+}
+.slider ul li p {
+    font-size: .9rem;
+    margin: 10px 0;
+    line-height: 1.4;
+    color: var(--black);
+}
+.news-section .slider li p {
+    font-weight: 600;
+}
+.news-section .slider h3{
+    display: none;
+}
+.faculty-list .dots,
+.faculty-list .controls{
+    display: none;
+}
+.faculty-list ul{
+    max-width: 100% !important;
+    flex-wrap: wrap;
+    transform: none !important;
+    padding: 0;
+    gap: 10px;
+}
+.faculty-list ul li{
+    width: 350px;
+    margin: 10px 0;
+    min-height: 300px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 780px) {
+    .slider {
+        width: 100%;
+    }
+    .slider ul {
+        width: calc(100% * var(--slides));
+        padding: 0 15px;
+    }
+    .slider ul li {
+        margin: 15px;
+    }
+    .slider .controls span {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+    .slider ul {
+        width: calc(50% * var(--slides));
+    }
+}

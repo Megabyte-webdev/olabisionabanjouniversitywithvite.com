@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Managements",
+        "departments": 10,
+        "imgsrc": "../assets/hero-img.png",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "HOD",
+        "departments": 10,
+        "imgsrc": "../assets/hero-img.png",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "Student Affairs",
+        "departments": 10,
+        "imgsrc": "../assets/hero-img.png",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    },{
+        "title": "Academic Affairs",
+        "departments": 10,
+        "imgsrc": "../assets/hero-img.png",
+        "content": "Here at the school of management and social sciences, our expert faculty members are at the forefront of research in their respective fields, ensuring that you receive"
+    }
+]
