@@ -287,7 +287,9 @@ ul.menus li {
 
 .nav ul.menus > li:has(a.active),
 .nav ul.menus > li:hover {
-    color: var(--primary-blue);
+    color: var(--secondary-blue);
+}
+.nav ul.menus > li:has(a.active){
     font-weight: bold;
 }
 
