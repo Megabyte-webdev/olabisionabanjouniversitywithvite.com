@@ -1,32 +1,32 @@
-#Olabisi Onabanjo University
+# Olabisi Onabanjo University
 
-##Overview
+## Overview
 
 This is the official page of Olabisi Onabanjo university, built using Vite.
 
-##Features
+## Features
     Responsive design for optimal user experience
     Modern and sleek interface
     Easy navigation to important university links
-##Setup
+## Setup
 
-##installation
+## installation
 
 bash 
 git clone 
 npm install
 
-##Development
+## Development
 
 bash 
 npm run dev
 
-##Production
+## Production
 
 bash 
 npm run build
 
-##Technologies Used
+## Technologies Used
     vite
     HTML
     CSS
